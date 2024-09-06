@@ -1,5 +1,8 @@
 module.exports = {
   root: true,
+  globals: {
+    "vitest": true,
+  },
   env: { browser: true, es2020: true },
   extends: [
     "eslint:recommended",
